@@ -4,7 +4,26 @@
 *::after {
   box-sizing: border-box;
 }
-
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "g1"
+    "g2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 1fr;
+    grid-row-gap: 200px;
+  }
+  .container > div {
+    border: 1px dashed #888;
+  }
+  
+  .g1 {
+    grid-area: g1;
+  }
+  .g2 {
+    grid-area: g2;
+  }
 body {
   display: flex;
   align-items: center;
