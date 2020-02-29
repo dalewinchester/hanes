@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-:root{
-    --bg-color: #986F99;
-}
-
 body {
   display: flex;
   align-items: center;
