@@ -14,7 +14,8 @@ body {
   height: 100vh;
   color: #000;
   background-color: #986F99;
-  font-family: 'Roboto', ;
+  font-family: "Roboto", ;
+  font-weight: 500;
 }
 
 h1{
